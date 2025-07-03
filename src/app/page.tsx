@@ -1,6 +1,9 @@
 import Navbar from "@/components/navbar";
+import prisma from '@/lib/prisma'
 
-export default function Home() {
+export default async function Home() {
+  const users = await prisma.user.findMany();
+
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
@@ -28,6 +31,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <ol className="list-decimal list-inside font-[family-name:var(--font-geist-sans)]">
+          {users.map((user) => (
+            <li key={user.id} className="mb-2">
+              {user.name}
+            </li>
+          ))}
+        </ol>
       </main>
     </div>
   );
