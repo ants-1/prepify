@@ -57,7 +57,7 @@ export default function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className="flex items-centern h-6 mt-2 space-x-1 text-sm font-medium transition-colors hover:hover:text-orange-600 hover:border-b-2 hover:border-orange-600 transition duration-200 ease-in-out"
+              className="flex items-centern h-6 mt-2 space-x-1 text-sm font-medium transition-colors hover:hover:text-orange-600 hover:border-b-2 hover:border-orange-600 duration-200 ease-in-out"
             >
               <item.icon className="h-4 w-4" />
               <span>{item.title}</span>

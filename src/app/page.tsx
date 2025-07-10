@@ -142,7 +142,7 @@ export default async function Home() {
                           <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                         ))}
                       </div>
-                      <p className="text-muted-foreground mb-6">&quot{testimonial.content}&quot</p>
+                      <p className="text-muted-foreground mb-6">&quot;{testimonial.content}&quot;</p>
                       <div className="flex items-center space-x-3">
                         <Avatar>
                           <AvatarImage src={testimonial.avatar || "/placeholder.svg"} alt={testimonial.name} />
