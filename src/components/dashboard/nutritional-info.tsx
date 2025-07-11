@@ -41,7 +41,7 @@ export default function NutritionalInfo() {
                 {/* Carbs Intake */}
                 <div className="flex justify-between">
                     <p className="font-semibold">Carbs</p>
-                    <p className="text-gray-600">180/250 g</p>
+                    <p className="text-gray-600">180/250g</p>
                 </div>
                 <Progress value={carbProgress} className="mt-1 mb-2" />
                 {/* Fats Intake */}

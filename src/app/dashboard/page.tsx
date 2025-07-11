@@ -6,6 +6,7 @@ import NutritionalInfo from "@/components/dashboard/nutritional-info";
 import MealShoppingList from "@/components/dashboard/meal-shopping-list";
 
 import { Button } from "@/components/ui/button";
+import QuickActions from "@/components/meal-plans/quick-actions";
 
 export default function Dashboard() {
     return (
@@ -27,6 +28,7 @@ export default function Dashboard() {
                     <div className="lg:w-1/3">
                         <NutritionalInfo />
                         <MealShoppingList />
+                        <QuickActions />
                     </div>
                 </div>
             </main>
