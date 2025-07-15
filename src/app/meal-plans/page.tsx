@@ -28,7 +28,7 @@ export default function MealPlans() {
                             <Share className="w-5 h-5" />
                             <span>Share</span>
                         </Button>
-                        <Button className="chover:cursor-pointer">
+                        <Button className="hover:cursor-pointer">
                             <Download className="w-5 h-5" />
                             <span>Export</span>
                         </Button>
