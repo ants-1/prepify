@@ -1,4 +1,4 @@
-import { MealPlanType, Recipe, ShoppingListType } from "./types";
+import { MealPlanType, Recipe, ShoppingListItem, ShoppingListType } from "./types";
 
 export const mealPlanData: MealPlanType[] = [
   {
@@ -354,4 +354,66 @@ export const recipes: Recipe[] = [
   },
 ];
 
+export const mockShoppingList: ShoppingListItem[] = [
+  {
+    name: "Bananas",
+    quantity: "6 pcs",
+    price: "£1.20",
+    category: "Produce",
+  },
+  {
+    name: "Milk",
+    quantity: "2 L",
+    price: "£1.60",
+    category: "Dairy & Eggs",
+  },
+  {
+    name: "Chicken Breast",
+    quantity: "500 g",
+    price: "£3.75",
+    category: "Meat",
+  },
+  {
+    name: "Frozen Peas",
+    quantity: "1 kg",
+    price: "£2.00",
+    category: "Frozen",
+  },
+  {
+    name: "Wholemeal Bread",
+    quantity: "1 loaf",
+    price: "£1.10",
+    category: "Bakery",
+  },
+  {
+    name: "Orange Juice",
+    quantity: "1 L",
+    price: "£1.50",
+    category: "Beverages",
+  },
+  {
+    name: "Toilet Paper",
+    quantity: "12 rolls",
+    price: "£4.99",
+    category: "Household",
+  },
+  {
+    name: "Eggs",
+    quantity: "12 pcs",
+    price: "£2.20",
+    category: "Dairy & Eggs",
+  },
+  {
+    name: "Ground Beef",
+    quantity: "400 g",
+    price: "£3.20",
+    category: "Meat",
+  },
+  {
+    name: "Frozen Pizza",
+    quantity: "1 pc",
+    price: "£2.75",
+    category: "Frozen",
+  },
+];
 

@@ -1,16 +1,16 @@
 export type MealPlanType = {
-    id: number;
-    day: string;
-    breakfast: string[];
-    lunch: string[];
-    dinner: string[];
-    snacks: string[];
+  id: number;
+  day: string;
+  breakfast: string[];
+  lunch: string[];
+  dinner: string[];
+  snacks: string[];
 }
 
 export type ShoppingListType = {
-    id: number;
-    name: string;
-    amount: string;
+  id: number;
+  name: string;
+  amount: string;
 }
 
 export type Recipe = {
@@ -33,4 +33,11 @@ export type Recipe = {
   instructions: string[];
   tags: string[];
   isFavorite?: boolean;
+}
+
+export type ShoppingListItem = {
+  name: string;
+  quantity: string;
+  price: string;
+  category: string;
 }
