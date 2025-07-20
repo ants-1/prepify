@@ -41,7 +41,7 @@ export const ShoppingListPanel: React.FC = () => {
                 {Object.entries(groupedItems).map(([category, items]) => (
                     <Card key={category} className="px-4">
                         <div className="flex items-center gap-2">
-                            <div className="p-2 border-2 border-gray-400 rounded-lg">
+                            <div className="p-2 border shadow-sm border-gray-400 rounded-lg">
                                 {categoryIcons[category] ?? <ShoppingCart className="w-5 h-5 text-gray-400" />}
                             </div>
                             <h2 className="text-2xl font-semibold text-orange-600">{category}</h2>

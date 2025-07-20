@@ -4,9 +4,9 @@ import Navbar from "@/components/navbar";
 import MealPlanInfo from "@/components/dashboard/meal-plan-info";
 import NutritionalInfo from "@/components/dashboard/nutritional-info";
 import MealShoppingList from "@/components/dashboard/meal-shopping-list";
+import QuickActions from "@/components/meal-plans/quick-actions";
 
 import { Button } from "@/components/ui/button";
-import QuickActions from "@/components/meal-plans/quick-actions";
 
 export default function Dashboard() {
     return (
